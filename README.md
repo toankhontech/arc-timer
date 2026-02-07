@@ -1,7 +1,9 @@
 <p align="center">
-  <h1 align="center">ArcTimer</h1>
-  <p align="center">The modern, accessible countdown circle timer for React, React Native & Expo</p>
+  <img src="assets/demo.gif" alt="ArcTimer Demo" width="720" />
 </p>
+
+<h1 align="center">ArcTimer</h1>
+<p align="center">The modern, accessible countdown circle timer for React, React Native & Expo</p>
 
 <p align="center">
   <img src="https://img.shields.io/npm/v/@toankhontech/arctimer-react" alt="npm version" />

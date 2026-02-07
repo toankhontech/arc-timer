@@ -44,6 +44,12 @@ yarn.lock
 .temp/
 .docusaurus/
 
+# Remotion (video generation tool - only output kept)
+remotion/
+
+# Preview images (temporary)
+assets/preview.png
+
 # Internal planning documents
 *.docx
 ~$*
