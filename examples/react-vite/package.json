@@ -1,5 +1,5 @@
 {
-  "name": "@ArcTimer/example-react-vite",
+  "name": "@toankhontech/arctimer-example-react-vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ArcTimer/react": "workspace:*",
-    "@ArcTimer/themes": "workspace:*",
+    "@toankhontech/arctimer-react": "workspace:*",
+    "@toankhontech/arctimer-themes": "workspace:*",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

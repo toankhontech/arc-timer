@@ -11,25 +11,25 @@ Install ArcTimer for your platform and start using it in minutes.
 ### React (Web)
 
 ```bash
-npm install @ArcTimer/react
+npm install @toankhontech/arctimer-react
 ```
 
 ### React Native
 
 ```bash
-npm install @ArcTimer/react-native react-native-svg
+npm install @toankhontech/arctimer-react-native react-native-svg
 ```
 
 ### Expo
 
 ```bash
-npx expo install @ArcTimer/expo
+npx expo install @toankhontech/arctimer-expo
 ```
 
 ### Headless Hook Only
 
 ```bash
-npm install @ArcTimer/core
+npm install @toankhontech/arctimer-core
 ```
 
 ## Quick Start
@@ -37,7 +37,7 @@ npm install @ArcTimer/core
 ### React (Web)
 
 ```tsx
-import { CountdownCircleTimer } from '@ArcTimer/react'
+import { CountdownCircleTimer } from '@toankhontech/arctimer-react'
 
 function App() {
   return (
@@ -58,7 +58,7 @@ function App() {
 ### React Native
 
 ```tsx
-import { CountdownCircleTimer } from '@ArcTimer/react-native'
+import { CountdownCircleTimer } from '@toankhontech/arctimer-react-native'
 import { Text } from 'react-native'
 
 function App() {
@@ -80,7 +80,7 @@ function App() {
 ### Expo
 
 ```tsx
-import { CountdownCircleTimer } from '@ArcTimer/expo'
+import { CountdownCircleTimer } from '@toankhontech/arctimer-expo'
 import { Text } from 'react-native'
 
 function App() {

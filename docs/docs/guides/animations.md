@@ -86,7 +86,7 @@ Access every frame's progress for custom animations:
 ArcTimer auto-detects `prefers-reduced-motion` and disables spring/bounce/pulse animations. You can also use the hook directly:
 
 ```tsx
-import { useReducedMotion } from '@ArcTimer/core'
+import { useReducedMotion } from '@toankhontech/arctimer-core'
 
 function App() {
   const prefersReducedMotion = useReducedMotion()

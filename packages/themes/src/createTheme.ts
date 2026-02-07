@@ -1,4 +1,4 @@
-import type { Theme, DeepPartial } from '@ArcTimer/core'
+import type { Theme, DeepPartial } from '@toankhontech/arctimer-core'
 import { defaultTheme } from './themes/default'
 
 function deepMerge<T extends Record<string, any>>(

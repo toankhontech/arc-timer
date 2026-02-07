@@ -1,6 +1,6 @@
 import { forwardRef, useImperativeHandle, useMemo } from 'react'
-import { useCountdown } from '@ArcTimer/core'
-import type { CountdownProps, TimerRef, RenderInfo } from '@ArcTimer/core'
+import { useCountdown } from '@toankhontech/arctimer-core'
+import type { CountdownProps, TimerRef, RenderInfo } from '@toankhontech/arctimer-core'
 
 export interface CountdownCircleTimerProps extends CountdownProps {
   style?: React.CSSProperties

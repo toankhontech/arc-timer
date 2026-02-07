@@ -1,11 +1,11 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import { CountdownCircleTimer } from '../CountdownCircleTimer'
-import { _resetForTesting } from '@ArcTimer/core'
+import { _resetForTesting } from '@toankhontech/arctimer-core'
 
 // Access the internal reset function
-vi.mock('@ArcTimer/core', async () => {
-  const actual = await vi.importActual('@ArcTimer/core')
+vi.mock('@toankhontech/arctimer-core', async () => {
+  const actual = await vi.importActual('@toankhontech/arctimer-core')
   return actual
 })
 

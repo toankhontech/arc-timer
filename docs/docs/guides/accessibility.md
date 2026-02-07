@@ -62,7 +62,7 @@ ArcTimer auto-detects `prefers-reduced-motion`:
 - Progress still updates smoothly
 
 ```tsx
-import { useReducedMotion } from '@ArcTimer/core'
+import { useReducedMotion } from '@toankhontech/arctimer-core'
 
 function App() {
   const prefersReducedMotion = useReducedMotion()

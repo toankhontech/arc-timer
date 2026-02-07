@@ -14,9 +14,9 @@ export default defineConfig({
     'react-native',
     'react-native-svg',
     'expo',
-    '@ArcTimer/core',
-    '@ArcTimer/react-native',
-    '@ArcTimer/themes',
+    '@toankhontech/arctimer-core',
+    '@toankhontech/arctimer-react-native',
+    '@toankhontech/arctimer-themes',
   ],
   target: 'es2020',
   esbuildOptions(options) {

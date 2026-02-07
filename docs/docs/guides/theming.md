@@ -19,8 +19,8 @@ ArcTimer comes with 5 built-in themes and full custom theme support.
 ## Using a Theme
 
 ```tsx
-import { TimerThemeProvider, darkTheme } from '@ArcTimer/themes'
-import { CountdownCircleTimer } from '@ArcTimer/react'
+import { TimerThemeProvider, darkTheme } from '@toankhontech/arctimer-themes'
+import { CountdownCircleTimer } from '@toankhontech/arctimer-react'
 
 function App() {
   return (
@@ -44,7 +44,7 @@ Automatically switch between light/dark based on OS setting:
 ## Custom Theme
 
 ```tsx
-import { createTheme, TimerThemeProvider } from '@ArcTimer/themes'
+import { createTheme, TimerThemeProvider } from '@toankhontech/arctimer-themes'
 
 const myTheme = createTheme({
   name: 'my-theme',
@@ -67,7 +67,7 @@ const myTheme = createTheme({
 ## Extending Themes
 
 ```tsx
-import { createTheme, darkTheme } from '@ArcTimer/themes'
+import { createTheme, darkTheme } from '@toankhontech/arctimer-themes'
 
 const customDark = createTheme({
   extends: darkTheme,

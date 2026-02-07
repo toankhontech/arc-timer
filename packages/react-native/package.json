@@ -1,5 +1,5 @@
 {
-  "name": "@ArcTimer/react-native",
+  "name": "@toankhontech/arctimer-react-native",
   "version": "0.0.0",
   "description": "React Native countdown circle timer using react-native-svg",
   "type": "module",
@@ -28,7 +28,7 @@
     "clean": "rm -rf dist .turbo"
   },
   "dependencies": {
-    "@ArcTimer/core": "workspace:*"
+    "@toankhontech/arctimer-core": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.3.0",

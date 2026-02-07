@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect, useMemo } from 'react'
-import type { Theme } from '@ArcTimer/core'
+import type { Theme } from '@toankhontech/arctimer-core'
 import { defaultTheme } from './themes/default'
 import { darkTheme } from './themes/dark'
 

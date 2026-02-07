@@ -11,7 +11,7 @@ import {
   TimerGroupContext,
   type TimerGroupProps,
   type TimerGroupRef,
-} from '@ArcTimer/core'
+} from '@toankhontech/arctimer-core'
 
 export const TimerGroup = forwardRef<TimerGroupRef, TimerGroupProps>(
   (props, ref) => {

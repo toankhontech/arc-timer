@@ -6,10 +6,10 @@ import {
   View,
   Pressable,
 } from 'react-native'
-import { CountdownCircleTimer } from '@ArcTimer/react-native'
-import { ExpoTimerProvider } from '@ArcTimer/expo'
-import { neonTheme } from '@ArcTimer/themes'
-import type { TimerRef } from '@ArcTimer/core'
+import { CountdownCircleTimer } from '@toankhontech/arctimer-react-native'
+import { ExpoTimerProvider } from '@toankhontech/arctimer-expo'
+import { neonTheme } from '@toankhontech/arctimer-themes'
+import type { TimerRef } from '@toankhontech/arctimer-core'
 
 function PomodoroTimer() {
   const timerRef = useRef<TimerRef>(null)

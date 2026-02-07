@@ -13,14 +13,14 @@ ArcTimer is a drop-in replacement for `react-countdown-circle-timer` with additi
 npm uninstall react-countdown-circle-timer
 
 # Install ArcTimer
-npm install @ArcTimer/react
+npm install @toankhontech/arctimer-react
 ```
 
 ## Update Imports
 
 ```diff
 - import { CountdownCircleTimer } from 'react-countdown-circle-timer'
-+ import { CountdownCircleTimer } from '@ArcTimer/react'
++ import { CountdownCircleTimer } from '@toankhontech/arctimer-react'
 ```
 
 ## Prop Changes

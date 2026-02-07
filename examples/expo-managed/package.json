@@ -8,9 +8,9 @@
     "ios": "expo start --ios"
   },
   "dependencies": {
-    "@ArcTimer/expo": "workspace:*",
-    "@ArcTimer/react-native": "workspace:*",
-    "@ArcTimer/themes": "workspace:*",
+    "@toankhontech/arctimer-expo": "workspace:*",
+    "@toankhontech/arctimer-react-native": "workspace:*",
+    "@toankhontech/arctimer-themes": "workspace:*",
     "expo": "~52.0.0",
     "react": "^19.0.0",
     "react-native": "^0.76.0",

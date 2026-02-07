@@ -1,11 +1,11 @@
 <p align="center">
-  <h1 align="center">@ArcTimer</h1>
+  <h1 align="center">ArcTimer</h1>
   <p align="center">The modern, accessible countdown circle timer for React, React Native & Expo</p>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/npm/v/@ArcTimer/react" alt="npm version" />
-  <img src="https://img.shields.io/npm/dw/@ArcTimer/react" alt="npm downloads" />
+  <img src="https://img.shields.io/npm/v/@toankhontech/arctimer-react" alt="npm version" />
+  <img src="https://img.shields.io/npm/dw/@toankhontech/arctimer-react" alt="npm downloads" />
   <img src="https://img.shields.io/badge/license-MIT-blue" alt="license" />
   <img src="https://img.shields.io/badge/react-18%2B-blue" alt="react" />
   <img src="https://img.shields.io/badge/react--native-0.72%2B-blue" alt="react native" />
@@ -34,19 +34,19 @@
 
 ```bash
 # React (Web)
-npm install @ArcTimer/react
+npm install @toankhontech/arctimer-react
 
 # React Native
-npm install @ArcTimer/react-native react-native-svg
+npm install @toankhontech/arctimer-react-native react-native-svg
 
 # Expo
-npx expo install @ArcTimer/expo
+npx expo install @toankhontech/arctimer-expo
 ```
 
 ### Use
 
 ```tsx
-import { CountdownCircleTimer } from '@ArcTimer/react'
+import { CountdownCircleTimer } from '@toankhontech/arctimer-react'
 
 function App() {
   return (
@@ -68,11 +68,11 @@ function App() {
 
 | Package | Description |
 |---------|-------------|
-| `@ArcTimer/core` | Shared logic, hooks, animation engine (zero platform deps) |
-| `@ArcTimer/react` | React web component (HTML SVG) |
-| `@ArcTimer/react-native` | React Native component (react-native-svg) |
-| `@ArcTimer/expo` | Expo wrapper with auto-linking |
-| `@ArcTimer/themes` | Pre-built theme packs |
+| `@toankhontech/arctimer-core` | Shared logic, hooks, animation engine (zero platform deps) |
+| `@toankhontech/arctimer-react` | React web component (HTML SVG) |
+| `@toankhontech/arctimer-react-native` | React Native component (react-native-svg) |
+| `@toankhontech/arctimer-expo` | Expo wrapper with auto-linking |
+| `@toankhontech/arctimer-themes` | Pre-built theme packs |
 
 ## Props
 
@@ -94,7 +94,7 @@ function App() {
 ## Multi-Timer (Pomodoro)
 
 ```tsx
-import { TimerGroup, CountdownCircleTimer } from '@ArcTimer/react'
+import { TimerGroup, CountdownCircleTimer } from '@toankhontech/arctimer-react'
 
 <TimerGroup mode="sequential" isPlaying onGroupComplete={() => alert('Done!')}>
   <CountdownCircleTimer duration={1500} colors="#E74C3C" />
@@ -107,7 +107,7 @@ import { TimerGroup, CountdownCircleTimer } from '@ArcTimer/react'
 ## Theming
 
 ```tsx
-import { TimerThemeProvider, darkTheme } from '@ArcTimer/themes'
+import { TimerThemeProvider, darkTheme } from '@toankhontech/arctimer-themes'
 
 <TimerThemeProvider theme="auto"> {/* auto dark mode */}
   <CountdownCircleTimer duration={60} />
@@ -122,7 +122,7 @@ ArcTimer is a drop-in replacement. [Migration Guide](./docs/docs/guides/migratio
 
 ```diff
 - import { CountdownCircleTimer } from 'react-countdown-circle-timer'
-+ import { CountdownCircleTimer } from '@ArcTimer/react'
++ import { CountdownCircleTimer } from '@toankhontech/arctimer-react'
 ```
 
 ## Contributing

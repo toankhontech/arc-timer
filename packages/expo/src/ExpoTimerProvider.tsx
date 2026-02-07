@@ -4,7 +4,7 @@ import type { AppStateStatus } from 'react-native'
 import {
   TimerThemeProvider,
   type ThemeProp,
-} from '@ArcTimer/themes'
+} from '@toankhontech/arctimer-themes'
 
 export interface ExpoTimerProviderProps {
   theme?: ThemeProp

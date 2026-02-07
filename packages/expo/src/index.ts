@@ -1,11 +1,11 @@
-// Re-export everything from @ArcTimer/react-native
+// Re-export everything from @toankhontech/arctimer-react-native
 export {
   CountdownCircleTimer,
   TimerGroup,
   useCountdown,
   useTimerGroup,
   useReducedMotion,
-} from '@ArcTimer/react-native'
+} from '@toankhontech/arctimer-react-native'
 
 export type {
   CountdownCircleTimerProps,
@@ -24,7 +24,7 @@ export type {
   Color,
   ColorFormat,
   Theme,
-} from '@ArcTimer/react-native'
+} from '@toankhontech/arctimer-react-native'
 
 // Re-export themes
 export {
@@ -36,7 +36,7 @@ export {
   minimalTheme,
   vibrantTheme,
   neonTheme,
-} from '@ArcTimer/themes'
+} from '@toankhontech/arctimer-themes'
 
 // Expo-specific
 export { ExpoTimerProvider } from './ExpoTimerProvider'

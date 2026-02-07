@@ -1,4 +1,4 @@
-import type { Theme } from '@ArcTimer/core'
+import type { Theme } from '@toankhontech/arctimer-core'
 
 export const defaultTheme: Theme = {
   name: 'default',

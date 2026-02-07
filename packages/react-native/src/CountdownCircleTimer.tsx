@@ -1,8 +1,8 @@
 import { forwardRef, useImperativeHandle, useMemo } from 'react'
 import { View, StyleSheet } from 'react-native'
 import Svg, { Path } from 'react-native-svg'
-import { useCountdown } from '@ArcTimer/core'
-import type { CountdownProps, TimerRef, RenderInfo } from '@ArcTimer/core'
+import { useCountdown } from '@toankhontech/arctimer-core'
+import type { CountdownProps, TimerRef, RenderInfo } from '@toankhontech/arctimer-core'
 
 export interface CountdownCircleTimerProps extends CountdownProps {
   testID?: string

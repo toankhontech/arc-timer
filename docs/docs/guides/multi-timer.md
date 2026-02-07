@@ -11,7 +11,7 @@ Orchestrate multiple timers with `TimerGroup`.
 Timers run one after another:
 
 ```tsx
-import { TimerGroup, CountdownCircleTimer } from '@ArcTimer/react'
+import { TimerGroup, CountdownCircleTimer } from '@toankhontech/arctimer-react'
 
 function Pomodoro() {
   return (
@@ -72,7 +72,7 @@ const groupRef = useRef<TimerGroupRef>(null)
 For fully custom UI:
 
 ```tsx
-import { useTimerGroup } from '@ArcTimer/core'
+import { useTimerGroup } from '@toankhontech/arctimer-core'
 
 const { timers, activeIndex, playAll, pauseAll, resetAll, groupState } =
   useTimerGroup({

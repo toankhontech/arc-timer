@@ -4,11 +4,11 @@ import {
   TimerGroup,
   type TimerRef,
   type TimerGroupRef,
-} from '@ArcTimer/react'
+} from '@toankhontech/arctimer-react'
 import {
   TimerThemeProvider,
   darkTheme,
-} from '@ArcTimer/themes'
+} from '@toankhontech/arctimer-themes'
 
 const sectionStyle: React.CSSProperties = {
   marginBottom: 48,

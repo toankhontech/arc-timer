@@ -1,5 +1,5 @@
 {
-  "name": "@ArcTimer/expo",
+  "name": "@toankhontech/arctimer-expo",
   "version": "0.0.0",
   "description": "Expo wrapper for ArcTimer with auto-linking and Expo optimizations",
   "type": "module",
@@ -27,8 +27,8 @@
     "clean": "rm -rf dist .turbo"
   },
   "dependencies": {
-    "@ArcTimer/react-native": "workspace:*",
-    "@ArcTimer/themes": "workspace:*"
+    "@toankhontech/arctimer-react-native": "workspace:*",
+    "@toankhontech/arctimer-themes": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.3.0",

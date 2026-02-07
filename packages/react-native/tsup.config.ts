@@ -13,7 +13,7 @@ export default defineConfig({
     'react',
     'react-native',
     'react-native-svg',
-    '@ArcTimer/core',
+    '@toankhontech/arctimer-core',
   ],
   target: 'es2020',
   esbuildOptions(options) {

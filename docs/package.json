@@ -1,5 +1,5 @@
 {
-  "name": "@ArcTimer/docs",
+  "name": "@toankhontech/arctimer-docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
     "@docusaurus/theme-live-codeblock": "^3.7.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "@ArcTimer/react": "workspace:*",
-    "@ArcTimer/themes": "workspace:*"
+    "@toankhontech/arctimer-react": "workspace:*",
+    "@toankhontech/arctimer-themes": "workspace:*"
   }
 }

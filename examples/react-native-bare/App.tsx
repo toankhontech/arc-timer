@@ -6,9 +6,9 @@ import {
   View,
   TouchableOpacity,
 } from 'react-native'
-import { CountdownCircleTimer, TimerGroup } from '@ArcTimer/react-native'
-import { TimerThemeProvider, darkTheme } from '@ArcTimer/themes'
-import type { TimerRef, TimerGroupRef } from '@ArcTimer/core'
+import { CountdownCircleTimer, TimerGroup } from '@toankhontech/arctimer-react-native'
+import { TimerThemeProvider, darkTheme } from '@toankhontech/arctimer-themes'
+import type { TimerRef, TimerGroupRef } from '@toankhontech/arctimer-core'
 
 function BasicTimer() {
   const timerRef = useRef<TimerRef>(null)

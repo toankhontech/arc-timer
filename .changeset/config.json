@@ -4,7 +4,7 @@
   "commit": false,
   "fixed": [],
   "linked": [
-    ["@ArcTimer/core", "@ArcTimer/react", "@ArcTimer/react-native", "@ArcTimer/expo", "@ArcTimer/themes"]
+    ["@toankhontech/arctimer-core", "@toankhontech/arctimer-react", "@toankhontech/arctimer-react-native", "@toankhontech/arctimer-expo", "@toankhontech/arctimer-themes"]
   ],
   "access": "public",
   "baseBranch": "main",

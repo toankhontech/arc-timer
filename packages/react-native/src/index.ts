@@ -6,7 +6,7 @@ export {
   useCountdown,
   useTimerGroup,
   useReducedMotion,
-} from '@ArcTimer/core'
+} from '@toankhontech/arctimer-core'
 
 export type {
   CountdownProps,
@@ -24,4 +24,4 @@ export type {
   Color,
   ColorFormat,
   Theme,
-} from '@ArcTimer/core'
+} from '@toankhontech/arctimer-core'

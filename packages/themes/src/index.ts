@@ -12,4 +12,4 @@ export { minimalTheme } from './themes/minimal'
 export { vibrantTheme } from './themes/vibrant'
 export { neonTheme } from './themes/neon'
 
-export type { Theme, ThemeOverride } from '@ArcTimer/core'
+export type { Theme, ThemeOverride } from '@toankhontech/arctimer-core'

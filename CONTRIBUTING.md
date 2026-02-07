@@ -26,11 +26,11 @@ pnpm dev
 
 ```
 packages/
-  core/          # @ArcTimer/core - shared logic, hooks, engine
-  react/         # @ArcTimer/react - web component
-  react-native/  # @ArcTimer/react-native - RN component
-  expo/          # @ArcTimer/expo - Expo wrapper
-  themes/        # @ArcTimer/themes - theme system
+  core/          # @toankhontech/arctimer-core - shared logic, hooks, engine
+  react/         # @toankhontech/arctimer-react - web component
+  react-native/  # @toankhontech/arctimer-react-native - RN component
+  expo/          # @toankhontech/arctimer-expo - Expo wrapper
+  themes/        # @toankhontech/arctimer-themes - theme system
 docs/            # Docusaurus documentation
 examples/        # Example apps
 ```

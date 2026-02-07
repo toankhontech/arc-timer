@@ -9,7 +9,7 @@ export default defineConfig({
   treeshake: true,
   splitting: false,
   minify: false,
-  external: ['react', '@ArcTimer/core'],
+  external: ['react', '@toankhontech/arctimer-core'],
   target: 'es2020',
   esbuildOptions(options) {
     options.jsx = 'automatic'
