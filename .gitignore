@@ -1,0 +1,45 @@
+node_modules/
+dist/
+build/
+.turbo/
+coverage/
+*.tsbuildinfo
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# AI tools - never commit
+.claude/
+.claude*
+.cursorrules
+.cursor/
+.aider*
+.copilot/
+.github/copilot
+.codeium/
+.continue/
+.tabnine/
+.windsurf/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Lock files (use pnpm-lock.yaml only)
+package-lock.json
+yarn.lock
+
+# Build artifacts
+*.tgz
+.cache/
+.temp/
+.docusaurus/
