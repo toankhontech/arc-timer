@@ -43,3 +43,8 @@ yarn.lock
 .cache/
 .temp/
 .docusaurus/
+
+# Internal planning documents
+*.docx
+~$*
+*-BRD-*
