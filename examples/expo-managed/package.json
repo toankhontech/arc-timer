@@ -1,0 +1,23 @@
+{
+  "name": "expo-managed-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "@ArcTimer/expo": "workspace:*",
+    "@ArcTimer/react-native": "workspace:*",
+    "@ArcTimer/themes": "workspace:*",
+    "expo": "~52.0.0",
+    "react": "^19.0.0",
+    "react-native": "^0.76.0",
+    "react-native-svg": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}
